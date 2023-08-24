@@ -22,7 +22,7 @@ jobs:
     - name: Restore .NET
       run: dotnet restore
     - name: Run endorctl
-      uses: endorlabs/github-action@b51bd06466b545f01a6ac788e3e1147695d3936c
+      uses: endorlabs/github-action@5e16037fd8a53f19978a83f2e0ad41090086fae8
       with:
         namespace: "demo"
         api: "https://api.staging.endorlabs.com"
